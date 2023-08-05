@@ -123,7 +123,7 @@ function Bio({onClick, values, skillValues, onClickSubType}) {
                             <div className='flex mt-2 overflow-x-auto'>
                                 {skill?.selectedSubjects?.map(sub => {
                                     return <div className='' key={sub}>
-                                        <div className='w-full bg-blue-500 whitespace-nowrap rounded-full p-2 text-sm m-1 text-white font-semibold'>{sub}</div>
+                                        <div className='bg-blue-500 whitespace-nowrap rounded-full p-2 text-sm m-1 text-white font-semibold'>{sub}</div>
                                     </div>
                                 })}
                                 <div className="flex py-2 px-4 overflow-x-auto">
