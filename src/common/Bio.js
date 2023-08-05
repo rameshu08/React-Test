@@ -108,7 +108,7 @@ function Bio({onClick, values, skillValues, onClickSubType}) {
                             <div>
                                 Hobbies I am passionate about
                             </div>
-                            <div className='flex mt-2'>
+                            <div className='flex mt-2 overflow-x-auto'>
                                 {skill?.selectedHobbies?.map(hobby => {
                                     return <div className='' key={hobby}>
                                         <div className='bg-blue-500 whitespace-nowrap rounded-full p-2 text-sm m-1 text-white font-semibold'>{hobby}</div>
